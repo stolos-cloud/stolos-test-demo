@@ -1,8 +1,9 @@
-module github.com/stolos-cloud/stolos-test-demo/templates/backend
+module github.com/stolos-k8s-template/scaffolds/base
 
 go 1.25.0
 
 require (
+	github.com/stolos-cloud/stolos/yoke-base v0.0.0-20251108204810-a3f86994075e
 	github.com/yokecd/yoke v0.17.3
 	k8s.io/api v0.34.1
 	k8s.io/apimachinery v0.34.1
@@ -16,7 +17,6 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
-	github.com/stolos-cloud/stolos/yoke-base v0.0.0-20251108204810-a3f86994075e // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/net v0.43.0 // indirect
